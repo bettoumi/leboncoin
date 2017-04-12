@@ -92,15 +92,107 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+                        Start Mobile first
+   ========================================================================== */
+                       /*--------Commun ruls---------*/
+
+
+     *{
+        box-sizing: border-box;
+        /*margin: 0;*/
+     } 
+     .nomobile 
+     {
+        display: none;
+     }                
+            /*----------------------Accueill for mobil--------------------*/
+
+
+                             /*----------header style------*/       
+     header 
+     {
+        display:flex;
+        justify-content: flex-end;
+        height: 50px;
+        background-color: rgb(245,107,42);
+        align-items:  center;
+        flex-direction: row-reverse;
+
+     }
+
+     header .logo
+     {
+         width: 40%;
+         height: 60%;
+         align-self: center;
+        margin:0 20%;
+
+
+
+     }
+     header .logo img
+     {
+        width: 100%;
+        height: 100%;
+     }
+     
+     header .menumobile
+     {
+        width: 65px;
+        height: 41px;
+        align-self: flex-end;
+
+       
+        border: 1px solid transparent;
+     }
+     header .menumobile button
+     {
+        padding: 8px;
+        background-color: white;
+        color:rgb(245,107,42);
+        border:none; 
+        font-size: 14px;
+        border-radius: 4px;
+        margin-left: 10px;
+     }                  
+                            /*---------- style------*/  
+
+     .principalsect
+     {
+        width: 90%;
+        margin:auto;
+     }
+
+
+      
+
+
+
+            /*----------------------desposer annonce for mobil--------------------* / 
+
+
+
+
+
+
+            /*----------------------Offre for mobil--------------------*/  
+                            
+
+/* ==========================================================================
+                        Start tablet css
+   ========================================================================== */
+         /*----------------------Accueill for Tablet-------------------------* / 
+        /*----------------------desposer annonce for Tablet--------------------*/  
+        /*----------------------Offre for Tablet----------------------------*/  
+
+
+/* ==========================================================================
+                        Start desktop css
    ========================================================================== */
 
-
-
-
-
-
-
+                /*----------------------Accueill for Desktop--------------------*/  
+            /*----------------------desposer annonce for Desktop--------------------*/  
+            /*----------------------Offre for Desktop---------------------------*/  
 
 
 
