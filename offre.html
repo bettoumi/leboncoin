@@ -61,8 +61,11 @@
           </header>
           <nav class="menu_offre nomobile">
             <form>
-                <input type="search" name="search" value="" placeholder="Que rechercher-vous?">
-                <select name="categorie" id="categorieChoice">
+                <p>
+                    <input type="search" name="search" value="" placeholder="Que rechercher-vous?">
+                </p>
+                <p<
+                    <select name="categorie" id="categorieChoice">
                     <optgroup label="Toutes categories">
                         
                     </optgroup>
@@ -84,11 +87,118 @@
                         <option value="console">Chambres d'hote</option>
                         <option value="imageetson">Camping</option>
                     </optgroup>
-                </select>
+                  </select>
+                 </p>
+                 <p> 
+                        <input type="checkbox" name="rechrecher" id="rechercher" />
+                        <label for="rechercher">Rechercher dans le titre uniquement</label> <br/>
+                        <input type="checkbox" name="urgence" id="urgence" />
+                        <label for="urgence">Annonces <span class="urgence">urgente uniquement</span> </label>
+                </p> 
+                <p>
+                        <select id="depatement" name="departement">
+                                <option value="autour">Autour de moi</option>
+                                <option value="il-de-france">Il-de-france</option>
+                                <option value="esonne">Esonne</option>
+                                <option value=regions-voisin"">Régions voisins</option>
+                                <option value="midi pyrenne">Midi pyrenne</option>
+                                <option value="Nord pas de calais">Nord pas de calais</option>
+                                <option value="pays de loire">pays de loire</option>
+                                <option value="picardie">Picardie</option>
+                                <option value="poiteau charente">Poiteau charente</option>
+
+                          </select>
+                </p> 
             </form>
 
           </nav>
 
+        <section class="principaloffre">
+           <h1>Annonces-Il-de-france</h1>
+           <section class="asideannoce">
+               <aside class="annonce_une">
+                   <h2>Annoce A la Une</h2>
+                   <figure>
+                       <img src="img/art1.jpg" alt="salon">
+                       <p class="description">Salon modern</p>
+                   </figure>
+                   <figure>
+                       <img src="img/art1.jpg" alt="">
+                       <p class="description">Salon modern</p>
+                   </figure>
+                   <figure>
+                       <img src="img/art2.jpg" alt="voiture">
+                       <p class="description">Ford transit</p>
+                   </figure>
+               </aside>
+           </section>
+           <section class="annonce_normal">
+            <article>
+                <ul class="nav_haut">
+                    <li><a href="#">Toutes 12547863</a></li>
+                    <li><a href="#">Particulier 1254786</a></li>
+                    <li><a href="#">Professionnels 2154783</a></li>
+                 </ul>   
+                    <select>
+                        <option value="groupe">Trier par groupe</option>
+                        <option vlaue="prix">Trier par prix</option>
+                    </select>
+
+                 <ul class="nav-article">
+                     <li><div>
+                           <a href="#"><img src="img/litbebe.jpg" alt="litbebe"></a>
+                          
+                                <h4 class="titre-art">Lit bébé</h4>
+                                <p>Equipement bébé</p>
+                                <p>griny essonne</p>
+                                <span>200 </span>
+                          </div>
+                          <div>
+                              <i class="fa fa-heart-o" style="font-size:24px"></i>
+                              <p>aujourd'huit</p>
+                          </div>  
+                     </li>
+                     <li><div>
+                           <a href="#"><img src="img/art3.jpg.jpg" alt="outilsjardinage"></a>
+                          
+                                <h4 class="titre-art">Outils jardinage</h4>
+                                <p>Jardinage</p>
+                                <p>paris18éme</p>
+                                <span>45</span>
+                          </div>
+                          <div>
+                              <i class="fa fa-heart-o" style="font-size:24px"></i>
+                              <p>aujourd'huit</p>
+                          </div>  </li>
+                     <li><div>
+                           <a href="#"><img src="art4.jpg" alt="basket"></a>
+                          
+                                <h4 class="titre-art">basketNike</h4>
+                                <p>vétement bébé</p>
+                                <p>Epiny sur orge</p>
+                                <span>10 </span>
+                          </div>
+                          <div>
+                              <i class="fa fa-heart-o" style="font-size:24px"></i>
+                              <p>aujourd'huit</p>
+                          </div>  </li>
+                     <li><a href=""></a></li>
+                 </ul>
+                
+            </article>
+               
+           </section>
+            
+
+        </section>
+        <footer id="annocefooter">
+            <section class="copyright">
+                <article class="left">
+                    <p>le boncoin 20016-2017</p>
+                </article>
+            </section>   
+           
+       </footer> 
 
 
     </body>
