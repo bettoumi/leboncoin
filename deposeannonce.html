@@ -53,8 +53,98 @@
                  <div class="connexion">
                      <button><i class="fa fa-user" style="font-size:24px"></i> Se connecter</button>
                  </div>
-
-   
+  
           </header>
-          </body>
-          </html> 
+        <section>
+            <h1>Deposer une annoce</h1>
+            <section class="formulaire">
+                <form>
+                 <aricle class="form">
+                    <h2>Votre annonce</h2>
+                    <label for="categorie">catégorie*</label>
+                       <select id="categorie" name="categorie">
+                                <option value="choisissez">Choisissez une catégorie</option>
+                                <option value="offresemploi">offre emploi</option>
+                                <option value="voitures">Voitures</option>
+                                <option value="motos">Motos</option>
+                                <option value="caravning">caravning</option>
+                                <option value="utilitaires">Utilitaires</option>
+                                <option value="equipement auto">Equipement auto</option>
+                                <option value="nautisma">Nautisme</option>
+                                <option value="ventes immobiliers">ventes immobiliers</option>
+
+                          </select>
+  
+                    
+                    vous étes un* : <br style="margin-bottom:10px;"/>
+                    <input type="radio" name="genre" id="particulier" value="jour"/>
+                    <label for="particulier">Particulier</label> 
+                    <input type="radio" name="genre" id="professionel" value="professionel"/>
+                    <label for="professionel">Professionel</label> <br>
+                    Type d'annonces* : <br style="margin-bottom:10px;"/>
+                    <input type="radio" name="annonce" id="offre" value="offre"/>
+                    <label for="offre">Offres</label> 
+                    <input type="radio" name="annonce" id="demande" value="demande"/>
+                    <label for="demande">Demandes</label> <br>
+                    <label for="titre">Titre d'annonce*</label><br>
+                    <input type="texte" id="titre"><br>
+                    <label for="texte">Texte de l'annonce*</label><br>
+                    <input type="textearea" id="texte"><br>
+                     <label for="prix">prix</label><br>
+                    <input type="number" id="prix"><br>
+                    photos: une annoce avec photos est 7fois plus consultée qu'une annoce sans photos   
+                    <input type="file"> 
+                    <input type="file"> 
+                    <input type="file"> 
+                    <input type="file"> 
+  
+                 </aricle>
+                 <article class="form">
+                    <h2>Localisation</h2>
+                    <input type="texe">
+                    <label for="adresse"></label>
+                    
+                    <input type="text" name="adresse"  id="adresse" value="" placeholder="voie ou numéro+voie">
+                    <input type="submit" name="submit" value="Valider mon adresee">
+                    <figure>
+                        
+                        <img src="img/map_france.png" alt="map de france">
+                    </figure>
+                     
+                 </article> 
+                 <article>
+                     <h2>Vos informations</h2>
+                      <label for="pseudo">Pseudo*</label><br>
+                      <input type="text" name="pseudo" ><br>
+                      <label for="email">Email*</label><br>
+                      <input type="email" name="email" ><br>
+                      <label for="tele">Téléphone*</label><br>
+                      <input type="tele" name="tele"><br>
+                      <input type="checkbox" name="frites" id="frites" checked/>
+                      <label for="frites">Les frites</label> <br/>
+
+                     <input type="checkbox" name="masquer" id="masquer"/>
+                    <label for="masquer">masquer le numéro de téléphone dans l'annonce</label> <br/>
+                    <input type="checkbox" name="soliciter" id="soliciter"/>
+                    <label for="soliciter">je ne souhaite pas étre souliciter par des societé</label> <br/>
+
+
+                 </article>
+                 <input type="submit" value="valider">
+                    
+                </form>
+            </section>
+
+        </section>
+       <footer id="annocefooter">
+            <section class="copyright">
+                <article class="left">
+                    <p>le boncoin 20016-2017</p>
+                </article>
+            </section>   
+           
+       </footer> 
+    
+
+</body>
+</html> 
