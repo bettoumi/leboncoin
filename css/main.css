@@ -188,6 +188,8 @@ textarea {
         height: 120px;
         margin-bottom: 30px;
      }
+                 
+                                  /*--------------style button rechercher ---------------*/   
 
      .principalsect .map-and-aticle .art-actual .depo-recher
      {
@@ -199,6 +201,8 @@ textarea {
         align-items: center;
 
      }
+
+
      .principalsect .map-and-aticle .art-actual .depo-recher button
      {
         width: 53%;
@@ -209,12 +213,26 @@ textarea {
         border-radius: 4px;
         font-size: 14px;
      }
+     .principalsect .map-and-aticle .art-actual .depo-recher .boutondeux
+     {
+        background-color: white;
+        color:rgb(76,148,239);
+        border:1px solid rgb(76,148,239);
+        font-size: 13px;
+     }
      .principalsect .map-and-aticle .art-actual .depo-recher button i
      {
-                font-size: 14px;
-                margin-right: 5px;
+        font-size: 14px;
+        margin-right: 5px;
      }
+     .principalsect .map-and-aticle .art-actual .depo-recher .boutondeux:hover
+     {
+          background-color: rgb(217,230,247);
+
+     }   
       
+                             /*--------------style mapfrance---------------*/   
+
      .principalsect .map-and-aticle .mapfrance
      {
         width: 90%;
@@ -223,6 +241,106 @@ textarea {
      {
         width: 100%;
      }
+
+                            /*---------style select choix région------------*/
+    .principalsect .map-and-aticle .choisregion
+    {
+
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+   .principalsect .map-and-aticle .choisregion form
+   {
+        width: 100%;
+
+   }
+   .principalsect .map-and-aticle .choisregion form select
+   {
+        width: 100%;
+        padding: 8px;
+        
+   }
+                            /*--------------style actualite article---------------*/   
+   .principalsect .map-and-aticle .actualite
+   {
+        width: 100%;
+        margin: auto;
+        border:1px solid green;
+
+   }
+   .principalsect .map-and-aticle .actualite  figure
+   {
+        width: 100%;
+        border:1px solid pink;
+        margin:auto;
+
+   }
+   .principalsect .map-and-aticle .actualite  figure img
+   {
+      width: 100%;
+   
+    }
+                        /*--------------style  le boncoin description section---------------*/  
+
+ .description
+ {
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    text-align: justify;
+ }
+ .description a
+ {
+    text-decoration: none;
+ }
+                     
+                   /*--------------style header fo mobile---------------*/ 
+ footer
+ {
+    background-color: rgb(71,71,71);
+ } 
+
+ footer .copyright 
+ {
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+
+ } 
+
+ footer .left
+ {
+
+    font-size: 15px;
+    color: white;
+    margin-left: 5px;
+ }
+ footer .droite i
+ {
+    margin: 5px 5px;
+ } 
+
+ footer .droite  .fa-facebook-square
+ {
+    color: rgb(59,89,152);
+    font-size: 30px;
+     
+ }
+ footer .droite   .fa-twitter-square          
+ {
+  
+   color:#00b0ed; 
+   font-size: 30px;
+ }
+ 
+                      
+
+
+
+
+
+
             /*----------------------desposer annonce for mobil--------------------* / 
 
 
@@ -231,6 +349,7 @@ textarea {
 
 
             /*----------------------Offre for mobil--------------------*/  
+    
                             
 
 /* ==========================================================================

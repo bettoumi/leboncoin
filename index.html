@@ -74,7 +74,7 @@
                                
                                 <div class="depo-recher">
                                     <button><i class="fa fa-pencil-square-o" ></i>Déposer une annonce</button>
-                                    <button><i class="material-icons">radio_button_checked</i>Rechercher autour de moi</button>
+                                    <button class="boutondeux"><i class="material-icons">radio_button_checked</i>Rechercher autour de moi</button>
                                     
                                 </div>
 
@@ -82,22 +82,42 @@
                            <article class="mapfrance">
                               <!-- <img src="cmap/trans.gif" alt="mapfrance"> -->
                               <img src="img/france.png" alt="">
-                           </article>       
+                           </article> 
+                           <article class="choisregion nodesktop">
+                                <form>
+                                 <select id="region" name="region">
+                                    <option value="choisissez">Choisissez une region</option>
+                                    <option value="alsace">Alsace</option>
+                                    <option value="Aquitaine">Aquitaine</option>
+                                    <option value="Lourain">Lourain</option>
+                                    <option value="midi pyrenne">Midi pyrenne</option>
+                                    <option value="Nord pas de calais">Nord pas de calais</option>
+                                    <option value="pays de loire">pays de loire</option>
+                                    <option value="picardie">Picardie</option>
+                                    <option value="poiteau charente">Poiteau charente</option>
+
+                                </select>
+  
+                                </form>  
+                                
+                           </article>
+                               
+                              
                            <article class="actualite">
-                                   <div class="tritre">
-                                       <h2>L'actualité leboncoin</h2>
+                                   <h2 class= "nomobile">L'actualité leboncoin</h2>
                                        <figure>
                                            <img src="img/actualitematin.jpg" alt="acualite">
                                        </figure>
-                                   </div>         
+                                        
                                     
                             </article>
                      
                        
                        
-                    </section>
+                     </section> 
+                                <!-- end map-and-article -->
 
-
+                    
                                              <!-- Section navigation par région  -->
                     <nav class="menudroite nomobile">
                          <ul>
@@ -132,40 +152,19 @@
                     </nav>        
                      
                  </section>
+                         <!-- end principalsect -->
+
+
                                  <!--****************leboncoin Description**********  -->                        
 
                  <section class="description">
-                     <p>Sur le site de <a>boncoin</a>passer des <a>annonces gratuites</a> et sans commission. Vous pouvez <a>consultez des petites annoces</a> de <a>particulier</a> et <a>professionnels</a>partout en france, que vous cherchez des <a>annoces immobiliers</a>des <a>voitures d'occasions</a>, des <a>offres d'emplois</a>, des <a>meubles</a>, du <a>matériels électronique</a> ou tout autre types des <a>produits d'ocasions</a> </p>
+                     <p>Sur le site de <a href="#">boncoin</a> passer des <a href="#">annonces gratuites</a> et sans commission. Vous pouvez <a href="#">consultez des petites annoces</a> de <a href="#"> particulier </a> et <a> professionnels </a> partout en france, que vous cherchez des <a href="#">annoces immobiliers</a> des <a href="#">voitures d'occasions</a>, des <a href="#">offres d'emplois</a>, des <a href="#">meubles</a> , du <a href="#">matériels électronique</a> ou tout autre types des <a href="#">produits d'ocasions</a> </p>
                  </section>
 
 
-                                  <!--****************Choisissez une region**********  -->
-                 <section class="choisregion nodesktop">
-                      <form>
-                          <select id="region" name="region">
-                                <option value="choisissez">Choisissez une region</option>
-                                <option value="alsace">Alsace</option>
-                                <option value="Aquitaine">Aquitaine</option>
-                                <option value="Lourain">Lourain</option>
-                                <option value="midi pyrenne">Midi pyrenne</option>
-                                <option value="Nord pas de calais">Nord pas de calais</option>
-                                <option value="pays de loire">pays de loire</option>
-                                <option value="picardie">Picardie</option>
-                                <option value="poiteau charente">Poiteau charente</option>
+                                
 
-                          </select>
-  
-                      </form>  
-                 </section>
-
-                          <!--*********** Nouveaute le boncoin ****************-->
-
-                 <section class="nouveaute nodesktop">
-                     <img src="img/nouveaute.jpg" alt="nouveauteboncoin">
-
-                 </section>
-
-
+                          
                             <!--*************** Annonces liens****************** -->
                  <section class="annonces nomobile">
 
@@ -317,7 +316,7 @@
                 <p>le boncoin 20016-2017</p>
             </article>
             <article class="droite">
-               <p>Retrouvez nous sur <i class="fa fa-facebook-square"></i><i class="fa fa-twitter-square"></i></p>
+               <p><span class="nomobile">Retrouvez nous sur </span> <i class="fa fa-facebook-square"></i><i class="fa fa-twitter-square"></i></p>
                
             </article>
         </section>
