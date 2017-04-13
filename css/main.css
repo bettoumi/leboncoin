@@ -162,12 +162,67 @@ textarea {
         width: 90%;
         margin:auto;
      }
+     
+     .principalsect h1
+     {
+        font-size: 15px;
+        font-family: "OpenSansSemiBold",sans-serif
 
+     }
+      .principalsect h1 span
+      {
+        color: rgb(247,120,42);
+      }
 
+     .principalsect .map-and-aticle
+     {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+     }
+     .principalsect .map-and-aticle .art-actual
+     {
+        width: 100%;
+        height: 120px;
+        margin-bottom: 30px;
+     }
+
+     .principalsect .map-and-aticle .art-actual .depo-recher
+     {
+        display :flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+
+     }
+     .principalsect .map-and-aticle .art-actual .depo-recher button
+     {
+        width: 53%;
+        background-color: rgb(76,148,239);
+        color:white;
+        border:none;
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 14px;
+     }
+     .principalsect .map-and-aticle .art-actual .depo-recher button i
+     {
+                font-size: 14px;
+                margin-right: 5px;
+     }
       
-
-
-
+     .principalsect .map-and-aticle .mapfrance
+     {
+        width: 90%;
+     }
+     .principalsect .map-and-aticle .mapfrance img
+     {
+        width: 100%;
+     }
             /*----------------------desposer annonce for mobil--------------------* / 
 
 
