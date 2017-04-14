@@ -470,7 +470,7 @@ textarea {
 
 
 /* ==========================================================================
-                        Start desktop css
+                                    Start desktop css
    ========================================================================== */
              
 
@@ -565,6 +565,154 @@ header  .connexion button
       color:white;
       font-size: 12px;
 }
+       
+                /*--------------Style pricipalsect for desktop----------*/
+
+
+
+
+
+ .principalsect h1
+
+{ 
+       width: 45%;
+       font-size: 15px; 
+}
+
+             
+                            /*-------style tabletsect for desktop*/
+.principalsect  #tabletsect
+{
+
+    flex-direction: row;
+    justify-content: space-around;
+    /*align-items: space-between;*/
+    border:1px solid green;
+    height: 500px;
+    width: 100%;
+           
+}
+.principalsect #tabletsect .menudroite
+{
+    display:block;
+    /*width: 100%;*/
+    height: 100%;
+    flex:0.7;
+    border:1px solid red;
+
+}
+.principalsect #tabletsect .menudroite ul li
+{
+    list-style-type: none;
+    text-align: right;
+    line-height: 1.2em;
+   
+}
+.principalsect #tabletsect .menudroite ul li a
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(61,106,190);
+    font-weight: bold;
+
+
+}
+
+
+
+                       /*---------style asidetablet for desktop-----*/ 
+    #tabletsect #asidetablet
+    {
+       
+        height: 95%;
+         
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        margin-bottom: 0px;
+        flex:0.8;
+     }
+
+      #tabletsect #asidetablet .depo-recher
+
+      {
+         justify-content: space-around;
+         height: 30%;
+
+      }   
+        
+    #tabletsect #asidetablet .depo-recher button
+    {
+        
+        padding: 10px;
+       
+    }
+
+    .principalsect #tabletsect .mapfrance
+     {
+        /*border:1px solid orange;*/
+        height: 100%;
+        /*width: 100%;*/
+        flex:1;
+
+     }
+     .principalsect #tabletsect .mapfrance img
+     {
+        height: 100%;
+        width: 100%;
+     }
+     #tabletsect #asidetablet .actuaaside
+     {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid rgb(102,102,102);
+        width: 100%;
+        height: 70%;
+     }
+                          /*-------style actaaside image for desktop-------*/
+
+     #tabletsect .art-actual .actuaaside img
+    {
+        width: 100%;
+        height: 80%;
+        
+      
+    }
+    .actuaaside .actuaaside-entete
+     {
+        height: 13%;
+        width: 100%;
+        background-color: rgb(102,102,102);
+        text-align: center;
+    }
+     #tabletsect .art-actual .actuaaside  .actuaaside-entete h3
+     {
+        font-size: 12px;
+        color:white;
+     
+     }
+
+           /*---------------------style description section for desktop---*/
+
+
+    .description
+    {
+        width: 98%;
+        margin:60px auto;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: justify;
+    }
+    .description a
+    {
+        text-decoration: none;
+        color: rgb(61,106,190);
+    }
+
+
+
 
 
 
