@@ -163,7 +163,7 @@ textarea {
         margin:auto;
      }
      
-     .principalsect h1
+     .principalsect  h1
      {
         font-size: 15px;
         font-family: "OpenSansSemiBold",sans-serif
@@ -205,7 +205,7 @@ textarea {
 
      .principalsect .map-and-aticle .art-actual .depo-recher button
      {
-        width: 53%;
+        min-width: 53%;
         background-color: rgb(76,148,239);
         color:white;
         border:none;
@@ -378,8 +378,8 @@ textarea {
        font-size: 13px; 
      }
 
-                  
-   
+             
+                            /*-------style tabletsect for tablette*/
     .principalsect  #tabletsect
     {
 
@@ -391,10 +391,10 @@ textarea {
         width: 100%;
            
     }
-
+                       /*---------style asidetablet for tablet-----*/ 
     #tabletsect #asidetablet
     {
-        /*border:1px solid red;*/
+       
         height: 95%;
         width: 40%;
         display: flex;
@@ -408,7 +408,6 @@ textarea {
 
       {
          justify-content: space-around;
-         /*border:2px solid yellow;*/
          height: 30%;
       }   
         
@@ -423,9 +422,13 @@ textarea {
      {
         /*border:1px solid orange;*/
         height: 100%;
-      
-        width: 50%;
+        width: 55%;
 
+     }
+     .principalsect #tabletsect .mapfrance img
+     {
+        height: 100%;
+        width: 100%;
      }
      #tabletsect #asidetablet .actuaaside
      {
@@ -436,11 +439,8 @@ textarea {
         border: 1px solid rgb(102,102,102);
         width: 100%;
         height: 70%;
-
-       
-
-
      }
+                          /*-------style actaaside image for tablette-------*/
 
      #tabletsect .art-actual .actuaaside img
     {
@@ -449,50 +449,134 @@ textarea {
         
       
     }
-     .actuaaside .actuaaside-entete
+    .actuaaside .actuaaside-entete
      {
         height: 15%;
         width: 100%;
         background-color: rgb(102,102,102);
         text-align: center;
-     }
+    }
      #tabletsect .art-actual .actuaaside  .actuaaside-entete h3
      {
         font-size: 12px;
         color:white;
-
-       
+     
      }
     
-    /*.actaaside a 
-    {
-        width: 100%;
-        text-decoration: none;
-        border:2px solid orange;
-    }*/
-    }
+            /*----------------------desposer annonce for Tablet--------------------*/  
+        /*----------------------Offre for Tablet----------------------------*/  
+
+}
+
+
+/* ==========================================================================
+                        Start desktop css
+   ========================================================================== */
+             
+
+
+@media (min-width:1024px)
+{
+                /*----------------------Accueill for Desktop--------------------*/ 
+
+ .nodesktop
+ {
+    display: none;
+ }
+ .nomobile
+ {
+    display: block;
+ }
+                  /*----------- style header for desktop------------*/
+
+header
+{
+     display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    height: 60px;
+    align-items:  center;
+    width: 100%;
+}
+
+ header .logo
+{
+        
+     height: 60%;
+     width: 12%;
+     margin:0 1%;
+     /*border:1px solid red;*/
+           
   
+}
+header .logo img
+ {
+    width:100%;
+    height: 100%;
+}
+ header .menuheader
+ {
+    /*border:1px solid yellow;*/
+    width: 60%;
+
+ }
+header .menuheader .menuboncoin
+
+{
+    display :flex;
+    align-self: center;
+    align-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: 0px;
+    width:100%;
+
+
+}
+header .menuheader .menuboncoin li
+{
+     /*margin:0 1%;*/
+     align-items: center;;
+}
+header .menuheader .menuboncoin li a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header  .connexion
+
+{
+    width: 11%;
+    height: 100%;
+    border-left:1px solid white;
+    border-right: 1px solid white;
+
+}
+header  .connexion button
+{
+      width: 100%;
+      height: 100%;
+      border:none;
+      background-color: rgb(245,107,42);
+      color:white;
+      font-size: 12px;
+}
+
+
+
+ /*----------------------desposer annonce for Desktop--------------------*/  
+            /*----------------------Offre for Desktop---------------------------*/  
 
 }
 
 
 
 
-
-
-
-
-        /*----------------------desposer annonce for Tablet--------------------*/  
-        /*----------------------Offre for Tablet----------------------------*/  
-
-
-/* ==========================================================================
-                        Start desktop css
-   ========================================================================== */
-
-                /*----------------------Accueill for Desktop--------------------*/  
-            /*----------------------desposer annonce for Desktop--------------------*/  
-            /*----------------------Offre for Desktop---------------------------*/  
+           
 
 
 
