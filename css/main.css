@@ -155,7 +155,7 @@ textarea {
         border-radius: 4px;
         margin-left: 10px;
      }                  
-                            /*---------- style------*/  
+                            /*---------- style pricipal section------*/  
 
      .principalsect
      {
@@ -186,7 +186,7 @@ textarea {
      {
         width: 100%;
         height: 120px;
-        margin-bottom: 30px;
+       margin-bottom: 30px;
      }
                  
                                   /*--------------style button rechercher ---------------*/   
@@ -366,11 +366,16 @@ textarea {
     .notablette
     {
         display: none;
-    }   
+    } 
+    .principalsect 
+    {
+        width: 98%;
+    } 
     .principalsect h1
 
     { 
-       width: 50%; 
+       width: 45%;
+       font-size: 13px; 
      }
 
                   
@@ -380,51 +385,93 @@ textarea {
 
         flex-direction: row;
         justify-content: space-between;
-        align-items: flex-start;
-
+        align-items: space-between;
+        border:1px solid green;
+        height: 450px;
+        width: 100%;
            
-        
     }
-    #tabletsect .art-actual
+
+    #tabletsect #asidetablet
     {
-        border:1px solid red;
-        margin-top: 30px;
+        /*border:1px solid red;*/
+        height: 95%;
+        width: 40%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content:space-around;
+        margin-bottom: 0px;
+        
+     }
 
-    }
-    #tabletsect .art-actual .depo-recher button
+      #tabletsect #asidetablet .depo-recher
+
+      {
+         justify-content: space-around;
+         /*border:2px solid yellow;*/
+         height: 30%;
+      }   
+        
+    #tabletsect #asidetablet .depo-recher button
     {
         width: 100%;
         padding: 10px;
+       
     }
 
-    .principalsect .map-and-aticle .mapfrance
+    .principalsect #tabletsect .mapfrance
      {
-        width: 100%;
-     }
-     #tabletsect .art-actual .actuaaside
-    {
-        display:flex;
-        border:1px solid black;
-        
-        flex-direction: column;
-        justify-content: space-around;
+        /*border:1px solid orange;*/
+        height: 100%;
+      
+        width: 50%;
 
+     }
+     #tabletsect #asidetablet .actuaaside
+     {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid rgb(102,102,102);
+        width: 100%;
+        height: 70%;
+
+       
+
+
+     }
+
+     #tabletsect .art-actual .actuaaside img
+    {
+        width: 100%;
+        height: 80%;
+        
+      
     }
+     .actuaaside .actuaaside-entete
+     {
+        height: 15%;
+        width: 100%;
+        background-color: rgb(102,102,102);
+        text-align: center;
+     }
+     #tabletsect .art-actual .actuaaside  .actuaaside-entete h3
+     {
+        font-size: 12px;
+        color:white;
+
+       
+     }
     
-    .actaaside a 
+    /*.actaaside a 
     {
         width: 100%;
         text-decoration: none;
         border:2px solid orange;
+    }*/
     }
-    }
-    .actaaside a  img
-    {
-        width: 30%;
-
+  
 
 }
 
