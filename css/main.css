@@ -710,11 +710,49 @@ header  .connexion button
         text-decoration: none;
         color: rgb(61,106,190);
     }
+                 /*------------start style annoces section for desktop*/                           
+
+   .annonces
+   {
+        background-color: rgb(242,242,242);
+        display:flex;
+        justify-content: space-around;
+        align-items:  flex-start;
+
+   }
+   .annonces .nav_lien
+   {
+        
+   }
+    .annonces .nav_lien ul
+    {
+        list-style-type: none;
+
+    }
+     .annonces .nav_lien ul li
+    {
+
+     }
+    .annonces .nav_lien ul li a
+    {
+        text-decoration: none;
+        color:rgb(61,118,203);
+        font-size: 13px;
+    }
+    .annonces .nav_lien ul .titre
+    {
+        border-bottom:1px solid  rgb(219,219,219);
+        margin-bottom: 8px;
+        margin-top: 15px;
+    }
+
+   .annonces .nav_lien ul .titre a
+   {
+       text-transform: uppercase;
+       margin-bottom: 12px;
 
 
-
-
-
+   }
 
  /*----------------------desposer annonce for Desktop--------------------*/  
             /*----------------------Offre for Desktop---------------------------*/  
