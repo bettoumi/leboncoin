@@ -243,19 +243,19 @@ textarea {
      }
 
                             /*---------style select choix région------------*/
-    .principalsect .map-and-aticle .choisregion
+    .principalsect  .choisregion
     {
 
         width: 100%;
         margin-bottom: 20px;
         margin-top: 20px;
     }
-   .principalsect .map-and-aticle .choisregion form
+   .principalsect  .choisregion form
    {
         width: 100%;
 
    }
-   .principalsect .map-and-aticle .choisregion form select
+   .principalsect  .choisregion form select
    {
         width: 100%;
         padding: 8px;
@@ -295,7 +295,7 @@ textarea {
     text-decoration: none;
  }
                      
-                   /*--------------style header fo mobile---------------*/ 
+                   /*--------------style footer  fo mobile---------------*/ 
  footer
  {
     background-color: rgb(71,71,71);
@@ -341,21 +341,100 @@ textarea {
 
 
 
-            /*----------------------desposer annonce for mobil--------------------* / 
+            /*----------------------desposer annonce for mobil--------------------*/ 
 
 
 
 
 
 
-            /*----------------------Offre for mobil--------------------*/  
+                 /*----------------------Offre for mobil--------------------*/  
     
                             
 
 /* ==========================================================================
-                        Start tablet css
+                                Start tablet css
    ========================================================================== */
-         /*----------------------Accueill for Tablet-------------------------* / 
+
+
+        
+
+@media (min-width:720px)
+{
+          /*---------------------- style index.html for Tablet-------------------------*/ 
+      
+    .notablette
+    {
+        display: none;
+    }   
+    .principalsect h1
+
+    { 
+       width: 50%; 
+     }
+
+                  
+   
+    .principalsect  #tabletsect
+    {
+
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+           
+        
+    }
+    #tabletsect .art-actual
+    {
+        border:1px solid red;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+    #tabletsect .art-actual .depo-recher button
+    {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .principalsect .map-and-aticle .mapfrance
+     {
+        width: 100%;
+     }
+     #tabletsect .art-actual .actuaaside
+    {
+        display:flex;
+        border:1px solid black;
+        
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+    
+    .actaaside a 
+    {
+        width: 100%;
+        text-decoration: none;
+        border:2px solid orange;
+    }
+    }
+    .actaaside a  img
+    {
+        width: 30%;
+
+
+}
+
+
+
+
+
+
+
+
         /*----------------------desposer annonce for Tablet--------------------*/  
         /*----------------------Offre for Tablet----------------------------*/  
 
