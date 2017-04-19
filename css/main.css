@@ -305,7 +305,7 @@ textarea {
  {
     display :flex;
     justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
 
  } 
 
@@ -709,7 +709,11 @@ header  .connexion button
     {
         text-decoration: none;
         color: rgb(61,106,190);
+
     }
+                 
+
+
                  /*------------start style annoces section for desktop*/                           
 
    .annonces
@@ -750,9 +754,131 @@ header  .connexion button
    {
        text-transform: uppercase;
        margin-bottom: 12px;
+    }
 
 
-   }
+        /*---------------------style  footerfor desktop---*/
+
+    footer
+    {
+        
+        margin: auto;
+
+    }
+    footer .haut_footer
+    {
+       display: flex;
+       justify-content: space-around;
+       color: white;
+       font-size: 15px;
+       align-items: flex-start;
+      
+
+    }
+
+    footer .haut_footer .artfooter     
+    {
+       
+        width: 20%;
+    }
+
+     footer .haut_footer .artfooter .titre
+
+     {
+       text-transform: uppercase;
+       font-size: 13px;
+       font-weight: bold;
+       margin-bottom: 15px;
+       border-bottom:  1px solid rgb(102,102,102);
+    
+     }
+
+    footer .haut_footer .artfooter ul
+
+    {
+        list-style-type: none;
+        padding: 0px;
+        line-height: 2.5em;
+
+    }
+     footer .haut_footer .artfooter ul a
+     {
+        text-decoration: none;
+        color:white;
+        font-size: 13px;
+     }
+
+    footer .haut_footer .artfooter ul .titre
+    {
+        border-bottom:1px solid  rgb(219,219,219);
+        margin-bottom: 8px;
+        margin-top: 15px;
+    }
+
+     footer .haut_footer .artfooter ul .titre a
+   {
+       text-transform: uppercase;
+       margin-bottom: 12px;
+    }
+
+
+    footer .haut_footer .lien_google
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+    footer .haut_footer .lien_google li a img
+    {
+        width: 120px;
+        height: 30px;
+
+    }
+    footer .haut_footer .artfooter form
+    {
+        width:100%;
+        margin:auto;
+    }
+
+    footer .haut_footer .artfooter form select
+    {
+       width: 100%;
+       padding: 5px;
+       color: black 
+    }
+    footer .milieu_footer
+    {
+        text-align: center;
+        font-size: 13px;
+        color:white;
+    }
+
+    footer .copyright 
+    {
+        
+
+     } 
+    footer .copyright .left
+    {
+
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    footer .droite p
+    {
+        font-size: 15px;
+    } 
+
+    footer .droite  .fa-facebook-square
+    {
+        
+        font-size: 20px;
+    }
+    footer .droite   .fa-twitter-square          
+    {
+  
+        font-size: 20px;
+    }
 
  /*----------------------desposer annonce for Desktop--------------------*/  
             /*----------------------Offre for Desktop---------------------------*/  
