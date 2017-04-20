@@ -67,7 +67,8 @@
                 <form>
                  <article class="form1">
                     <h2>Votre annonce</h2>
-                    <label for="categorie">catégorie*</label>
+                    <div class="elemtform">
+                    <label class="label" for="categorie">catégorie*</label><br>
                        <select id="categorie" name="categorie">
                                 <option value="choisissez">Choisissez une catégorie</option>
                                 <option value="offresemploi">offre emploi</option>
@@ -79,31 +80,36 @@
                                 <option value="nautisma">Nautisme</option>
                                 <option value="ventes immobiliers">ventes immobiliers</option>
 
-                          </select>
+                          </select><br>
   
                     
-                    vous étes un* : <br style="margin-bottom:10px;"/>
-                    <input type="radio" name="genre" id="particulier" value="jour"/>
-                    <label for="particulier">Particulier</label> 
+                    <label class="label">vous étes un* :</label><br>
+                    <input type="radio" name="genre" id="particulier" value="jour" checked="checked" />
+                    <label for="particulier" class="label1">Particulier</label> 
                     <input type="radio" name="genre" id="professionel" value="professionel"/>
-                    <label for="professionel">Professionel</label> <br>
-                    Type d'annonces* : <br style="margin-bottom:10px;"/>
+                    <label for="professionel" class="label1">Professionel</label> <br>
+                    <label class="label">Type d'annonces* : </label>
                     <input type="radio" name="annonce" id="offre" value="offre"/>
-                    <label for="offre">Offres</label> 
+                    <label for="offre" class="label1">Offres</label> 
                     <input type="radio" name="annonce" id="demande" value="demande"/>
-                    <label for="demande">Demandes</label> <br>
-                    <label for="titre">Titre d'annonce*</label><br>
+                    <label for="demande" class="label1">Demandes</label> <br>
+                    <label class="label">Titre d'annonce*</label><br>
                     <input type="texte" id="titre"><br>
-                    <label for="texte">Texte de l'annonce*</label><br>
+                    <label class="label">Texte de l'annonce*</label><br>
                     <input type="textearea" id="texte"><br>
-                     <label for="prix">prix</label><br>
-                    <input type="number" id="prix"><br>
-                    photos: une annoce avec photos est 7fois plus consultée qu'une annoce sans photos   
-                    <input type="file"> 
-                    <input type="file"> 
-                    <input type="file"> 
-                    <input type="file"> 
-  
+                    <label for="prix" class="label">Prix</label><br>
+                    <input type="tel" id="prix"><br>
+                    <div class="images">
+                     <p> photos: une annoce avec photos est 7 fois plus consultée qu'une annoce sans photos</p> 
+                        <div class="image" > 
+                           <img src="img/photoprincipale.png" class="img1" alt="photos1">
+                           <img src="img/photo2.png" class="img1" alt="photos2">
+                           <img src="img/photo3.png" class="img1" alt="photos3">
+                           <img src="img/photosuppmobile.png" class="imgsup" alt="photos1">
+                        </div> 
+                        
+                    </div>
+                   </div>
                  </article>
                  <article class="form1">
                     <h2>Localisation</h2>

@@ -347,7 +347,7 @@ footer .droite   .fa-twitter-square
 
 .depoannonce 
 {
-    width: 95%;
+    width: 92%;
     margin:auto;
 }
 
@@ -372,6 +372,7 @@ footer .droite   .fa-twitter-square
 .depoannonce .formulaire form .form1
 {
     border: 1px solid rgb(152,152,152) ;
+    margin-bottom: 20px;
 }
 .depoannonce .formulaire form .form1 h2
 {
@@ -384,10 +385,68 @@ footer .droite   .fa-twitter-square
     padding-left: 10px;
     padding-top: 10px;
 }
+.depoannonce .formulaire form .form1 .elemtform
+{
+    width: 95%;
+    margin: auto;
+}
+.depoannonce .formulaire form .form1 .elemtform .label
+{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.depoannonce .formulaire form .form1 .elemtform .label1
+{
+    font-size: 14px;
+}
 
+.depoannonce .formulaire form .form1 .elemtform select
+{
+    width: 100%;
+    padding:3px;
+}
+.depoannonce .formulaire form .form1 .elemtform input[type="textearea"], .depoannonce .formulaire form .form1 .elemtform input[type="texte"], .depoannonce .formulaire form .form1 .elemtform input[type="tel"] 
+{
+    width: 100%;
+    padding: 5px;
+}
+.depoannonce .formulaire form .form1 .elemtform input[type="textearea"]
+{
+    height: 200px;
+}
+.depoannonce .formulaire form .form1 .elemtform .images p
+{
+    font-size: 13px;
+}
+.depoannonce .formulaire form .form1 .elemtform .images .image
+{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   margin-bottom: 10px;
+}
+.depoannonce .formulaire form .form1 .elemtform .images .image .img1
+{
+    width: 25%;
+    height: 25%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.depoannonce .formulaire form .form1 .elemtform .images .image .imgsup
+{
+    width: 100%;
+    height: 80px;
+}
+
+
+
+ 
 
                     /*----------------------Offre for mobil--------------------*/  
                  /*---------------------------------------------------------*/                              
+}
 
 /* ==========================================================================
                                 Start tablet css
