@@ -327,7 +327,7 @@ textarea {
     font-size: 30px;
      
  }
- footer .droite   .fa-twitter-square          
+footer .droite   .fa-twitter-square          
  {
   
    color:#00b0ed; 
@@ -342,15 +342,52 @@ textarea {
 
 
             /*----------------------desposer annonce for mobil--------------------*/ 
+            /*--------------------------------------------------------------------*/
 
 
+.depoannonce 
+{
+    width: 95%;
+    margin:auto;
+}
 
+.depoannonce h1
+{
 
+    color:rgb(152,152,152);
+    font-size: 18px;  
+            
+}
+.depoannonce hr
+{
 
-
-                 /*----------------------Offre for mobil--------------------*/  
+    color: rgb(152,152,152);
     
-                            
+}
+
+.depoannonce .formulaire
+{
+    margin-top: 20px;
+}
+.depoannonce .formulaire form .form1
+{
+    border: 1px solid rgb(152,152,152) ;
+}
+.depoannonce .formulaire form .form1 h2
+{
+    height: 45px;
+    background-color:rgb(102,102,102);
+    margin-top: 0px;
+    font-size: 15px;
+    color: white;
+    vertical-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+                    /*----------------------Offre for mobil--------------------*/  
+                 /*---------------------------------------------------------*/                              
 
 /* ==========================================================================
                                 Start tablet css

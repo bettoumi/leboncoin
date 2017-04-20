@@ -9,7 +9,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <<link rel="icon"  type="images/png" href="favicons.png">
+        <link rel="icon"  type="images/png" href="favicons.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -28,7 +28,7 @@
           <header>
               
                  <aside class="logo">
-                     <img src="img/logo-du-bon-coin.png" alt="logo le boncoin">
+                     <img src="img/logo.svg" alt="logo le boncoin">
 
                  </aside>
 
@@ -45,21 +45,27 @@
 
                                 <!-- menu mobile -->
 
-                     <div class="menumobile">
+                     <div class="menumobile nodesktop">
                           <button>MENU</button>  
                      </div>
                      
                  </nav>
-                 <div class="connexion">
-                     <button><i class="fa fa-user" style="font-size:24px"></i> Se connecter</button>
+                 <div class="connexion nomobile">
+                     <button><i class="fa fa-user" style="font-size:18px"></i> Se connecter</button>
                  </div>
   
           </header>
-        <section>
-            <h1>Deposer une annoce</h1>
+
+
+                                    <!--Start deposer annonce section  -->
+
+
+        <section class="depoannonce">
+            <h1>Déposer une annonce</h1>
+            <hr>
             <section class="formulaire">
                 <form>
-                 <aricle class="form">
+                 <article class="form1">
                     <h2>Votre annonce</h2>
                     <label for="categorie">catégorie*</label>
                        <select id="categorie" name="categorie">
@@ -98,8 +104,8 @@
                     <input type="file"> 
                     <input type="file"> 
   
-                 </aricle>
-                 <article class="form">
+                 </article>
+                 <article class="form1">
                     <h2>Localisation</h2>
                     <input type="texe">
                     <label for="adresse"></label>
@@ -112,7 +118,7 @@
                     </figure>
                      
                  </article> 
-                 <article>
+                 <article class="form1">
                      <h2>Vos informations</h2>
                       <label for="pseudo">Pseudo*</label><br>
                       <input type="text" name="pseudo" ><br>
@@ -136,6 +142,9 @@
             </section>
 
         </section>
+
+                                        <!--Start footer   -->
+
        <footer id="annocefooter">
             <section class="copyright">
                 <article class="left">
