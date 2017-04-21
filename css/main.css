@@ -390,7 +390,7 @@ footer .droite   .fa-twitter-square
     width: 95%;
     margin: auto;
 }
-.depoannonce .formulaire form .form1 .elemtform .label
+.depoannonce .formulaire form .form1 .elemtform .label, .depoannonce .formulaire form .form1  .label
 {
     font-size: 13px;
     font-weight: bold;
@@ -440,7 +440,15 @@ footer .droite   .fa-twitter-square
     height: 80px;
 }
 
-
+.depoannonce .formulaire form .form1  input[type="texte"]
+{
+    width: 100%;
+    padding: 5px;
+}
+.depoannonce .formulaire form .form1  input[placeholder]
+{
+    font-size: 13px;
+}
 
  
 
