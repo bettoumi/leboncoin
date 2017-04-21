@@ -373,6 +373,7 @@ footer .droite   .fa-twitter-square
 {
     border: 1px solid rgb(152,152,152) ;
     margin-bottom: 20px;
+
 }
 .depoannonce .formulaire form .form1 h2
 {
@@ -439,21 +440,67 @@ footer .droite   .fa-twitter-square
     width: 100%;
     height: 80px;
 }
-
-.depoannonce .formulaire form .form1  input[type="texte"]
+ 
+.depoannonce .formulaire form .form1 .inputs
 {
-    width: 100%;
-    padding: 5px;
+    width: 95%;
+    margin: auto;
 }
-.depoannonce .formulaire form .form1  input[placeholder]
+.depoannonce .formulaire form .form1 .inputs input, .depoannonce .formulaire form .form1 .inputs label, .depoannonce .formulaire form .form1 .elemtform input
+{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.depoannonce .formulaire form .form1  .inputs input[type="texte"]
+{
+    
+    padding: 5px;
+    width: 100%;
+    
+}
+.depoannonce .formulaire form .form1  .inputs input[placeholder]
 {
     font-size: 13px;
 }
+.depoannonce .formulaire form  .inputs input[type="submit"]
+{
+   
+    background-color: rgb(249,180,147);
+    color:white; 
+    padding: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    border:none;
+    width: 100%;
+    border-radius: 3px;
+    margin:15px auto;
+    text-align: center;                             
+}
+.depoannonce .formulaire form input[type="submit"]
+{
+    background-color: rgb(76,148,239);
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    border:none;
+    width: 100%;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.depoannonce .formulaire form span
+{
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+}
 
- 
+ /*----------------------Offre for mobil--------------------*/  
+/*---------------------------------------------------------*/       
 
-                    /*----------------------Offre for mobil--------------------*/  
-                 /*---------------------------------------------------------*/                              
+
+
 }
 
 /* ==========================================================================

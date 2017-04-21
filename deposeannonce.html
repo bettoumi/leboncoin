@@ -113,37 +113,38 @@
                  </article>
                  <article class="form1">
                     <h2>Localisation</h2>
-                    <label for="ville" class="label">ville ou code postale*</label><br>
+                     <div class="inputs">
+                       <label for="ville" class="label">ville ou code postale*</label><br>
                     
-                    <input type="texte" id ="ville">
-                    <label for="adresse" class="label">Adresse</label><br>
+                       <input type="texte" id ="ville"><br>
+                       <label for="adresse" class="label">Adresse</label><br>
                     
-                    <input type="texte" name="adresse"  id="adresse" value="" placeholder="voie ou numéro+voie">
-                    <input type="submit" name="submit" value="Valider mon adresee">
-                    <figure>
+                        <input type="texte" name="adresse"  id="adresse" value="" placeholder="voie ou numéro+voie">
+                        <input type="submit" name="submit" value="Valider mon adresee">
+                       <figure>
                         
-                        <img src="img/map_france.png" alt="map de france">
-                    </figure>
-                     
+                          <img src="img/map_france.png" alt="map de france">
+                       </figure>
+                  </div>
                  </article> 
                  <article class="form1">
                      <h2>Vos informations</h2>
-                      <label for="pseudo">Pseudo*</label><br>
+                     <div class="inputs">
+                      <label for="pseudo" class="label">Pseudo*</label><br>
                       <input type="text" name="pseudo" ><br>
-                      <label for="email">Email*</label><br>
+                      <label for="email" class="label">Email*</label><br>
                       <input type="email" name="email" ><br>
-                      <label for="tele">Téléphone*</label><br>
+                      <label for="tele" class="label">Téléphone*</label><br>
                       <input type="tele" name="tele"><br>
-                      <input type="checkbox" name="frites" id="frites" checked/>
-                      <label for="frites">Les frites</label> <br/>
-
-                     <input type="checkbox" name="masquer" id="masquer"/>
-                    <label for="masquer">masquer le numéro de téléphone dans l'annonce</label> <br/>
-                    <input type="checkbox" name="soliciter" id="soliciter"/>
-                    <label for="soliciter">je ne souhaite pas étre souliciter par des societé</label> <br/>
-
+                      
+                      <input type="checkbox" name="masquer" id="masquer"/>
+                      <label for="masquer" class="label">masquer le numéro de téléphone dans l'annonce</label> <br/>
+                     <input type="checkbox" name="soliciter" id="soliciter"/>
+                     <label for="soliciter" class="label">je ne souhaite pas étre souliciter par des societé</label> <br/>
+                   </div>
 
                  </article>
+                  <span>Champ obligatoire*</span>
                  <input type="submit" value="valider">
                     
                 </form>
