@@ -512,16 +512,175 @@ footer .droite   .fa-twitter-square
     float: right;
 }
 
- /*----------------------Offre for mobil--------------------*/  
-/*---------------------------------------------------------*/       
+
+                     /*----------------------Offre for mobil--------------------*/  
+                    /*---------------------------------------------------------*/       
+
+
+                              /*------style header for offre.html--------*/
+header #searchoffre
+{
+    width: 80px;
+    height: 50px;
+}
+header #searchoffre button
+{
+    width: 70px;
+    height: 40px;
+    margin-top:5px;
+    margin-right: 10px;
+}
+header #searchoffre i
+{
+    color:rgb(245,107,42)
+}
+                            /*------style principal section for offre.html--------*/
+
+.principaloffre
+{
+    width: 95%;
+    margin: auto;
+}
+.principaloffre h1
+{
+    font-size: 15px;
+    color:#989898;
+}
+
+ .principaloffre .mainsection
+{
+    /*width: 100%;*/
+    margin: auto; 
+    margin-top: 30px;
+}
+
+                            /*-------style aside annonce-une for offre.html--------*/ 
+
+.principaloffre .mainsection .annonce_une
+{
+    border:2px solid rgb(245,107,42);
+    height: 400px;
+    padding: 0px;
+    width: 100%;
+
+}
+.principaloffre .mainsection .annonce_une .titreorange
+{
+    height: 10%;
+    margin-top: -15px;
+    background-color:rgb(245,107,42);
+    color: white;
+    text-align: center;
+    font-size: 10px; 
+
+}
+.principaloffre .mainsection .annonce_une .titreorange h2
+{
+    padding-top: 8px;
+}
+.principaloffre .mainsection .annonce_une .articleaside
+{
+    width: 100%;
+    height:90%;
+}
+.principaloffre .mainsection .annonce_une .articleaside .figureaside
+{
+    display: flex;
+    justify-content: flex-start;
+     width: 100%;
+    border-bottom: 1px solid #989898;
+    height: 33%;
+    margin: 0px;
+    padding-bottom: 5px;
+
+}
+.principaloffre .mainsection .annonce_une .figureaside img
+{
+    width: 30%;
+    height: 100%;
+}
+.principaloffre .mainsection .annonce_une .figureaside  .infoart
+
+{
+    margin-left: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+}
+.principaloffre .mainsection .annonce_une .articleaside #fignobo
+{
+    border-bottom: none;
+}
+
+.principaloffre .mainsection .annonce_une .figureaside .infoart .description
+{
+    
+    color: rgb(56,115,189);
+    
+}
+.principaloffre .mainsection .annonce_une .figureaside .infoart .prix
+{
+    color: rgb(245,107,42);
+}
+
+                             /*-------style annoces  for offre.html--------*/ 
+
+
+.annonce_normal
+{
+    margin-top: 20px;
+}
+
+
+.annonce_normal .navart
+
+{
+    width: 60%;
+    height: 80px;
+    border: 1px solid #989898;
+}
+ .annonce_normal .navart ul
+ {
+    list-style-type: none;
+    display:  flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+ }
+
+.annonce_normal .navart ul li
+{
+    border-right: 1px solid #989898;
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 20px;
+    
+}
+
+ .annonce_normal .navart ul li a
+{
+    text-decoration: none;
+}
+
+
+
+
 
 
 
 
 
         /* ==========================================================================
-                                Start tablet css
+                                       Start tablet css
          ========================================================================== */
+
+
+
 
 
         
@@ -529,7 +688,7 @@ footer .droite   .fa-twitter-square
 @media (min-width:720px)
 {
           /*---------------------- style index.html for Tablet-------------------------*/ 
-      
+          /*---------------------------------------------------------------------------*/  
     .notablette
     {
         display: none;

@@ -9,7 +9,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <<link rel="icon"  type="images/png" href="favicons.png">
+        <link rel="icon"  type="images/png" href="favicons.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -28,8 +28,11 @@
 
           <header>
               
+                  <div class="nodesktop" id="searchoffre">
+                     <button><i class="fa fa-search" style="font-size:24px"></i></button>
+                 </div>
                  <aside class="logo">
-                     <img src="img/logo-du-bon-coin.png" alt="logo le boncoin">
+                     <img src="img/logo.svg" alt="logo le boncoin">
 
                  </aside>
 
@@ -54,17 +57,17 @@
                  <div class="connexion nomobile">
                      <button><i class="fa fa-user" style="font-size:24px"></i> Se connecter</button>
                  </div>
-                 <div class="nodesktop">
-                     <button><i class="fa fa-search" style="font-size:24px"></i></button>
-                 </div>
+                 
   
           </header>
+
+                                       <!-- menu search for offre -->
           <nav class="menu_offre nomobile">
             <form>
                 <p>
                     <input type="search" name="search" value="" placeholder="Que rechercher-vous?">
                 </p>
-                <p<
+                <p>
                     <select name="categorie" id="categorieChoice">
                     <optgroup label="Toutes categories">
                         
@@ -113,32 +116,49 @@
 
           </nav>
 
-        <section class="principaloffre">
-           <h1>Annonces-Il-de-france</h1>
-           <section class="asideannoce">
+    <section class="principaloffre">
+        <h1>Annonces-Il-de-france</h1>
+        <section class ="mainsection">
+           
                <aside class="annonce_une">
-                   <h2>Annoce A la Une</h2>
-                   <figure>
+                   <div class="titreorange">
+                        <h2>Annoce a la une</h2>
+                   </div>
+                  <div class="articleaside">
+
+                    <figure class="figureaside">
                        <img src="img/art1.jpg" alt="salon">
-                       <p class="description">Salon modern</p>
-                   </figure>
-                   <figure>
-                       <img src="img/art1.jpg" alt="">
-                       <p class="description">Salon modern</p>
-                   </figure>
-                   <figure>
+                       <div class=infoart>
+                          <p class="description">Salon modern</p>
+                          <p class="prix"> 200 <i class="fa fa-euro" style="font-size:12px"></i></p>
+                       </div> 
+                    </figure>
+                      <figure class="figureaside">
+                       <img src="img/maisonmodern.jpg" alt="">
+                       <div class=infoart>
+                          <p class="description">Maison modern</p>
+                           <p class="prix"> 1500000<i class="fa fa-euro" style="font-size:12px"></i></p>
+                       </div> 
+                    </figure>
+                   <figure class="figureaside" id="fignobo">
                        <img src="img/art2.jpg" alt="voiture">
-                       <p class="description">Ford transit</p>
+                       <div class=infoart>
+                          <p class="description">Ford transit</p>
+                          <p class="prix">300<i class="fa fa-euro" style="font-size:12px"></i></p>
+                       </div>
                    </figure>
+                  </div>
                </aside>
-           </section>
+         
            <section class="annonce_normal">
-            <article>
+               <nav class="navart">
                 <ul class="nav_haut">
-                    <li><a href="#">Toutes 12547863</a></li>
-                    <li><a href="#">Particulier 1254786</a></li>
-                    <li><a href="#">Professionnels 2154783</a></li>
-                 </ul>   
+                    <li><a href="#">Toutes</a></li>
+                    <li><a href="#">Particulier</a></li>
+                    <li><a href="#">Professionnels</a></li>
+                 </ul> 
+               </nav> 
+             <article class="article_offre">      
                     <select>
                         <option value="groupe">Trier par groupe</option>
                         <option vlaue="prix">Trier par prix</option>
@@ -188,9 +208,9 @@
             </article>
                
            </section>
-            
-
         </section>
+
+       </section>
         <footer id="annocefooter">
             <section class="copyright">
                 <article class="left">
