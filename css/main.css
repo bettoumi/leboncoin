@@ -345,6 +345,10 @@ footer .droite   .fa-twitter-square
             /*--------------------------------------------------------------------*/
 
 
+.imgtablet 
+{
+    display:none;
+}
 .depoannonce 
 {
     width: 92%;
@@ -445,25 +449,37 @@ footer .droite   .fa-twitter-square
 {
     width: 95%;
     margin: auto;
+
 }
-.depoannonce .formulaire form .form1 .inputs input, .depoannonce .formulaire form .form1 .inputs label, .depoannonce .formulaire form .form1 .elemtform input
+.depoannonce .formulaire form .form1 .inputs .labelinput 
+{
+    width: 100%;
+    margin: auto;
+}
+.depoannonce .formulaire form .form1 .inputs input[type="texte"], .depoannonce .formulaire form .form1 .inputs input[type="email"], .depoannonce .formulaire form .form1 .inputs input[type="tele"]
+{
+    width: 100%;
+    padding: 5px;
+} 
+
+.depoannonce .formulaire form .form1 .inputs .labelinput input, .depoannonce .formulaire form .form1 .inputs label, .depoannonce .formulaire form .form1 .elemtform input
 {
     margin-top:5px;
     margin-bottom: 5px;
 }
 
-.depoannonce .formulaire form .form1  .inputs input[type="texte"]
+.depoannonce .formulaire form .form1  .inputs .labelinput #ville, .depoannonce .formulaire form .form1  .inputs .labelinput #adresse
 {
     
     padding: 5px;
     width: 100%;
     
 }
-.depoannonce .formulaire form .form1  .inputs input[placeholder]
+.depoannonce .formulaire form .form1  .inputs .labelinput input[placeholder]
 {
     font-size: 13px;
 }
-.depoannonce .formulaire form  .inputs input[type="submit"]
+.depoannonce .formulaire form  .inputs .labelinput input[type="submit"]
 {
    
     background-color: rgb(249,180,147);
@@ -501,11 +517,11 @@ footer .droite   .fa-twitter-square
 
 
 
-}
 
-/* ==========================================================================
+
+        /* ==========================================================================
                                 Start tablet css
-   ========================================================================== */
+         ========================================================================== */
 
 
         
@@ -613,8 +629,97 @@ footer .droite   .fa-twitter-square
         color:white;
      
      }
+
     
-            /*----------------------desposer annonce for Tablet--------------------*/  
+            /*----------------------desposer annonce for Tablet--------------------*/ 
+            /*---------------------------------------------------------------------*/
+
+
+    .depoannonce .formulaire form .form1 .elemtform .images .image .imgmobile 
+      
+    {
+        display:none;
+
+    }
+
+    .depoannonce .formulaire form .form1 .elemtform .images .image  .imgtablet 
+    {
+        display:block;
+        
+    }
+    
+
+    .depoannonce .formulaire form .form1 .elemtform .images .image .img1
+    {
+        width: 23%;
+        height: 25%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+   .depoannonce .formulaire form .form1 #localtablet
+    {
+        width: 98%;
+        margin:auto;
+        display: flex;
+        justify-content: flex-start;
+        align-content: flex-start;
+
+    }
+    .depoannonce .formulaire form .form1 #localtablet figure
+    {
+        border:1px solid rgb(102,102,102);
+        width: 70%;
+        margin-right: 0px;
+
+    }
+    .depoannonce .formulaire form .form1 #localtablet figure img
+    {
+        margin:10px 10%;
+    }
+
+    .depoannonce .formulaire form .form1 .inputs .labelinput
+    {
+        
+        align-items: flex-start;
+    }
+
+    .depoannonce .formulaire form .form1 .inputs .labelinput input, .depoannonce .formulaire form .form1 .inputs label, .depoannonce .formulaire form .form1 .elemtform input
+    {
+        margin-top:5px;
+        margin-bottom: 5px;
+        width: 80%;
+    }
+
+    #particulier, #offre, #demande, #professionel
+    {
+            width: auto;
+    }
+
+    .depoannonce .formulaire form .form1  .inputs .labelinput #ville, .depoannonce .formulaire form .form1  .inputs .labelinput #adresse
+    {
+    
+        padding: 5px;
+        width: 80%;
+    
+    }
+    .depoannonce .formulaire form  #inpuannce
+    {
+        width: 20%;
+        padding: 12px;
+    }
+
+    #annocefooter 
+    {
+        height: 100px;
+    }
+    #annocefooter .copyright #tabletp
+    {
+        font-size: 12px;
+        margin-left: 50px;
+    }
+
+
         /*----------------------Offre for Tablet----------------------------*/  
 
 }
@@ -1041,7 +1146,55 @@ header  .connexion button:hover
         font-size: 20px;
     }
 
- /*----------------------desposer annonce for Desktop--------------------*/  
+
+
+
+
+        /*----------------------desposer annonce for Desktop--------------------*/  
+        /*----------------------------------------------------------------------*/
+
+
+
+
+
+    .depoannonce .formulaire form .form1 .elemtform select
+    {
+        width: 50%;
+        padding:3px;
+    }
+    .depoannonce .formulaire form .form1 .elemtform input[type="textearea"], .depoannonce .formulaire form .form1 .elemtform input[type="texte"], .depoannonce .formulaire form .form1 .elemtform input[type="tel"] 
+    {
+        width: 50%;
+        padding: 5px;
+    }
+    .depoannonce .formulaire form .form1 .elemtform #prix
+    {
+        width: 30%;
+    }
+     
+    .depoannonce .formulaire form .form1 .elemtform .images .image
+    
+    {
+        width: 80%;
+    }    
+    .depoannonce .formulaire form .form1 .elemtform .images .image .img1
+    {
+        width: 20%;
+        height: 25%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .depoannonce .formulaire form .form1 #inpudesktop input
+    {
+        width: 30%;
+
+    }
+    .depoannonce .formulaire form .form1 #inpudesktop #masquer, .depoannonce .formulaire form .form1 #inpudesktop #soliciter
+    {
+        width: auto;
+    }
+
             /*----------------------Offre for Desktop---------------------------*/  
 
 }

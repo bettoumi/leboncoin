@@ -88,7 +88,7 @@
                     <label for="particulier" class="label1">Particulier</label> 
                     <input type="radio" name="genre" id="professionel" value="professionel"/>
                     <label for="professionel" class="label1">Professionel</label> <br>
-                    <label class="label">Type d'annonces* : </label>
+                    <label class="label">Type d'annonces* : </label><br>
                     <input type="radio" name="annonce" id="offre" value="offre"/>
                     <label for="offre" class="label1">Offres</label> 
                     <input type="radio" name="annonce" id="demande" value="demande"/>
@@ -105,7 +105,8 @@
                            <img src="img/photoprincipale.png" class="img1" alt="photos1">
                            <img src="img/photo2.png" class="img1" alt="photos2">
                            <img src="img/photo3.png" class="img1" alt="photos3">
-                           <img src="img/photosuppmobile.png" class="imgsup" alt="photos1">
+                           <img src="img/photosuppmobile.png" class="imgmobile imgsup" alt="photos1">
+                           <img src="img/photosupp.png" class="imgtablet img1" alt="photossup">
                         </div> 
                         
                     </div>
@@ -113,14 +114,16 @@
                  </article>
                  <article class="form1">
                     <h2>Localisation</h2>
-                     <div class="inputs">
-                       <label for="ville" class="label">ville ou code postale*</label><br>
+                     <div class="inputs" id="localtablet">
+                        <div class="labelinput">
+                            <label for="ville" class="label">ville ou code postale*</label><br>
                     
-                       <input type="texte" id ="ville"><br>
-                       <label for="adresse" class="label">Adresse</label><br>
+                            <input type="texte" id ="ville"><br>
+                            <label for="adresse" class="label">Adresse</label><br>
                     
-                        <input type="texte" name="adresse"  id="adresse" value="" placeholder="voie ou numéro+voie">
-                        <input type="submit" name="submit" value="Valider mon adresee">
+                            <input type="texte" name="adresse"  id="adresse" value="" placeholder="voie ou numéro+voie">
+                            <input type="submit" name="submit" value="Valider mon adresee">
+                        </div>
                        <figure>
                         
                           <img src="img/map_france.png" alt="map de france">
@@ -129,9 +132,9 @@
                  </article> 
                  <article class="form1">
                      <h2>Vos informations</h2>
-                     <div class="inputs">
+                     <div class="inputs" id ="inpudesktop">
                       <label for="pseudo" class="label">Pseudo*</label><br>
-                      <input type="text" name="pseudo" ><br>
+                      <input type="texte" name="pseudo" ><br>
                       <label for="email" class="label">Email*</label><br>
                       <input type="email" name="email" ><br>
                       <label for="tele" class="label">Téléphone*</label><br>
@@ -145,7 +148,7 @@
 
                  </article>
                   <span>Champ obligatoire*</span>
-                 <input type="submit" value="valider">
+                 <input type="submit" value="valider" id="inpuannce">
                     
                 </form>
             </section>
@@ -156,7 +159,7 @@
 
        <footer id="annocefooter">
             <section class="copyright">
-                <article class="left">
+                <article class="left" id="tabletp">
                     <p>le boncoin 20016-2017</p>
                 </article>
             </section>   
