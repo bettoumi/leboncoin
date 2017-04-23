@@ -153,56 +153,69 @@
            <section class="annonce_normal">
                <nav class="navart">
                 <ul class="nav_haut">
-                    <li><a href="#">Toutes</a></li>
-                    <li><a href="#">Particulier</a></li>
-                    <li><a href="#">Professionnels</a></li>
+                    <li class="lien1"><a href="#">Toutes</a></li>
+                    <li  class="lien2"><a href="#">Particulier</a></li>
+                    <li class="lien3"><a href="#">Professionnels</a></li>
                  </ul> 
+                 <ul class="lienvide">
+                   <li class="lien4"><a href="#" ></a></li>
+                 </ul>
                </nav> 
              <article class="article_offre">      
-                    <select>
-                        <option value="groupe">Trier par groupe</option>
+                    <select id="offre_select">
+                        <option value="groupe">Trier par: Date</option>
                         <option vlaue="prix">Trier par prix</option>
                     </select>
 
                  <ul class="nav-article">
-                     <li><div>
-                           <a href="#"><img src="img/litbebe.jpg" alt="litbebe"></a>
-                          
-                                <h4 class="titre-art">Lit bébé</h4>
-                                <p>Equipement bébé</p>
-                                <p>griny essonne</p>
-                                <span>200 </span>
-                          </div>
-                          <div>
-                              <i class="fa fa-heart-o" style="font-size:24px"></i>
-                              <p>aujourd'huit</p>
-                          </div>  
+                     <li class="list_offre">
+                            
+                              <div class=image_art>
+                                  <a href="#"><img src="img/litbebe.jpg" alt="litbebe"></a>
+                               </div>
+                               <div class="desart">
+                                  <h4 class="titre-art">Lit bébé</h4>
+                                  <p>Equipement bébé</p>
+                                  <p>griny essonne</p>
+                                  <p class="prix"><span>200 <i class="fa fa-euro" style="font-size:12px"></i> </span> <span>aujourd'huit</span>  </p>
+                               </div> 
+                           
+                              <div class="coeur">
+                                  <i class="fa fa-heart-o" style="font-size:24px"></i>
+                              
+                              </div>  
                      </li>
-                     <li><div>
+                     <li class="list_offre">
+                       
                            <a href="#"><img src="img/art3.jpg.jpg" alt="outilsjardinage"></a>
-                          
-                                <h4 class="titre-art">Outils jardinage</h4>
-                                <p>Jardinage</p>
-                                <p>paris18éme</p>
-                                <span>45</span>
-                          </div>
-                          <div>
+                                <div class="desart">
+                                  <h4 class="titre-art">Outils jardinage</h4>
+                                  <p>Jardinage</p>
+                                  <p>paris18éme</p>
+                                  <p class="prix"><span>50 <i class="fa fa-euro" style="font-size:12px"></i> </span>aujourd'huit<span>  </p>
+                                  </span>
+                              <div class="coeur"
                               <i class="fa fa-heart-o" style="font-size:24px"></i>
-                              <p>aujourd'huit</p>
-                          </div>  </li>
-                     <li><div>
+                              
+                            
+                          </li>
+                     <li class="list_offre">
+                        <div>
                            <a href="#"><img src="art4.jpg" alt="basket"></a>
-                          
+                              <div class="desart">
                                 <h4 class="titre-art">basketNike</h4>
                                 <p>vétement bébé</p>
                                 <p>Epiny sur orge</p>
-                                <span>10 </span>
+                                <p class="prix"><span>80 <i class="fa fa-euro" style="font-size:12px"></i> </span> <span>aujourd'huit</span>  </p>
+                               </div>
                           </div>
-                          <div>
+                          <div  class="coeur">
                               <i class="fa fa-heart-o" style="font-size:24px"></i>
-                              <p>aujourd'huit</p>
-                          </div>  </li>
-                     <li><a href=""></a></li>
+                              
+                          </div>  
+
+                       </li>
+                    
                  </ul>
                 
             </article>
