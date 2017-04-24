@@ -549,7 +549,7 @@ header #searchoffre i
 
 .principaloffre .mainsection
 {
-    /*width: 100%;*/
+    
     margin: auto; 
     margin-top: 30px;
 }
@@ -594,6 +594,10 @@ header #searchoffre i
     padding-bottom: 5px;
 
 }
+.principaloffre .mainsection .annonce_une .articleaside .figureaside:hover
+ {
+    background-color: rgb(230,230,230);
+ } 
 .principaloffre .mainsection .annonce_une .figureaside img
 {
     width: 30%;
@@ -720,6 +724,20 @@ header #searchoffre i
     border-bottom:   1px solid #989898;
     /*padding: 10px;*/
 }
+.annonce_normal .navart .nav_haut .lien1:hover, .annonce_normal .navart ul .lien2:hover, .annonce_normal .navart .nav_haut .lien3:hover
+ {
+    
+    background-color: white;
+ }
+
+.annonce_normal .navart .nav_haut .lien1:hover a, .annonce_normal .navart ul .lien2:hover a, .annonce_normal .navart .nav_haut .lien3:hover a
+{
+
+   text-decoration: underline;
+    color:rgb(245,107,42); 
+ }
+
+
                               
 
                               /*----------style select for offre.html--------*/  
@@ -753,6 +771,10 @@ header #searchoffre i
     width: 100%;
     height: 200px;
     border-bottom: 1px solid #989898;
+}
+.article_offre .nav-article .list_offre:hover
+{
+    background-color: rgb(220,220,220);
 }
 
 .article_offre .nav-article .list_offre .image_art
