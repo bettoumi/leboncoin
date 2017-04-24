@@ -760,6 +760,7 @@ header #searchoffre i
     width: 30%;
     margin-left:15px;
     height: 80%;
+    margin-top: 20px
 }
 .article_offre .nav-article .list_offre .image_art a 
 {
@@ -780,11 +781,30 @@ header #searchoffre i
     flex-direction: column;
     justify-content: flex-start;
     /*align-items: center;*/
-    font-size: 12px;
+    font-size: 13px;
 }
+.article_offre .nav-article .list_offre .desart .titre-art
+ {
+    color:rgb(67,134,202);
+    font-weight: bold;
+    font-size: 18px;
+ }
+.article_offre .nav-article .list_offre .desart .prix .auj 
+{
+    float: right; 
+}
+
+
+
+.article_offre .nav-article .list_offre .prix .prix1
+{
+    color: rgb(245,107,42);
+    font-weight: bold;
+}
+
 .article_offre .nav-article .list_offre .coeur
 {
-    
+    color: rgb(204,204,204);
 }
 
 
