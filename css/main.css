@@ -1082,12 +1082,10 @@ header #searchoffre i
     .principaloffre .mainsection .annonce_une .figureaside  .infoart
 
     {
-        /*margin-left: 20px;*/
+        
         font-weight: bold;
          display: block;
-
-        f/*lex-direction: column;
-        justify-content: center;*/
+       
         font-size: 12px;
     }
 
@@ -1235,14 +1233,14 @@ header  .connexion button:hover
  .principalsect h1
 
 { 
-       width: 30%;
-       font-size: 15px; 
+    width: 30%;
+    font-size: 15px; 
 }
 
              
                             /*-------style tabletsect for desktop*/
 
-.principalsect  #tabletsect
+.principalsect #tabletsect
 {
 
     flex-direction: row;
@@ -1292,13 +1290,13 @@ header  .connexion button:hover
         flex:0.8;
      }
 
-      #tabletsect #asidetablet .depo-recher
+    #tabletsect #asidetablet .depo-recher
 
-      {
+    {
          justify-content: space-around;
          height: 30%;
 
-      }   
+    }   
         
     #tabletsect #asidetablet .depo-recher button
     {
@@ -1311,7 +1309,6 @@ header  .connexion button:hover
      {
         
         height: 100%;
-        /*width: 100%;*/
         flex:1;
         margin-left: 30px;
 
@@ -1331,7 +1328,10 @@ header  .connexion button:hover
         width: 100%;
         height: 70%;
      }
+
+
                           /*-------style actaaside image for desktop-------*/
+
 
      #tabletsect .art-actual .actuaaside img
     {
@@ -1376,7 +1376,7 @@ header  .connexion button:hover
 
                  /*------------start style annoces section for desktop*/                           
 
-   .annonces
+.annonces
    {
         background-color: rgb(242,242,242);
         display:flex;
@@ -1384,20 +1384,14 @@ header  .connexion button:hover
         align-items:  flex-start;
 
    }
-   .annonces .nav_lien
-   {
-        
-   }
-    .annonces .nav_lien ul
+   
+.annonces .nav_lien ul
     {
         list-style-type: none;
 
     }
-     .annonces .nav_lien ul li
-    {
-
-     }
-    .annonces .nav_lien ul li a
+ 
+.annonces .nav_lien ul li a
     {
         text-decoration: none;
         color:rgb(61,118,203);
@@ -1666,7 +1660,7 @@ header  .connexion button:hover
 
 .menu_offre form  .bas_search
 {
-    /*width: 80%;*/
+    
     display:flex;
     justify-content:flex-start;
 }
@@ -1676,7 +1670,6 @@ header  .connexion button:hover
     border:1px solid rgb(200,200,200);
     border-radius: 6px;
     background-color: white;
-    /*padding: px;*/
     margin-right: 15px;
     height: 38px;
     width: 25.5%;
@@ -1714,7 +1707,7 @@ header  .connexion button:hover
 .principaloffre .mainsection .annonce_une
  {
         flex:0.65;
-        height: 800px;
+        height: 650px;
  }
 
 
@@ -1724,46 +1717,42 @@ header  .connexion button:hover
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        /*align-items: center;*/
         width: 100%;
         padding-top: 10px;
         height: 200px;
 
         border-bottom: 1px solid #989898;
-        /*border:1px solid red;*/
+      
         margin-bottom: 10px;
-    
-        
-        /*padding-bottom: 5px;*/
+           
 
     }
-    .principaloffre .mainsection .annonce_une .figureaside img
-    {
+
+
+.principaloffre .mainsection .annonce_une .figureaside img
+{
         width:50%;
         height: 60%;
-    }
-    .principaloffre .mainsection .annonce_une .figureaside  #infoartaside
+}
+.principaloffre .mainsection .annonce_une .figureaside  .infoart
 
-    {
-        /*margin-left: 20px;*/
-        font-weight: bold;
+{
+        
+         font-weight: bold;
           display: flex;
           flex-direction:column;
           justify-content:flex-start; 
-          align-items: center;
-          align-content: center;
-         margin-top: 0px;
-         margin-left: 0px;
-          border:1px solid red;
+          margin-top: 0px;
+          margin-left: 0px;
           height: 35%;
           width: 100%;
-        
-           font-size: 12px;
-    }
-    .principaloffre .mainsection .annonce_une .figureaside #infoartaside  .description
-    {
-        margin-bottom: 0px;
-    }
+          font-size: 12px;
+}
+.principaloffre .mainsection .annonce_une .figureaside .infoart  .description, .principaloffre .mainsection .annonce_une .figureaside .infoart .prix
+{
+         margin:5px 30%;
+           
+}
 
 
 
@@ -1772,19 +1761,6 @@ header  .connexion button:hover
 
 
 }
-
-
-
-
-           
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
