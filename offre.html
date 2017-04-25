@@ -62,43 +62,55 @@
           </header>
 
                                        <!-- menu search for offre (just desktop) -->
+
+
           <nav class="menu_offre nomobile">
             <form>
-                <p>
+               <article class="haut-search"> 
+                <p id="searchinput">
                     <input type="search" name="search" value="" placeholder="Que rechercher-vous?">
                 </p>
-                <p>
+                <p id="catinput">
                     <select name="categorie" id="categorieChoice">
-                    <optgroup label="Toutes categories">
+                        <optgroup label="Toutes categories" id="toutcat" >
+                              <option  value="toute" >Toutes categories</option>
+                        </optgroup>
+                        <optgroup label="immobilier">
+                            <option value="vente">vente</option>
+                            <option value="location">lacation</option>
+                        </optgroup>
+                        <optgroup label="Emplois">
+                            <option value="offre">offres d'emploi</option>
                         
-                    </optgroup>
-                    <optgroup label="immobilier">
-                        <option value="vente">vente</option>
-                        <option value="location">lacation</option>
-                    </optgroup>
-                    <optgroup label="Emplois">
-                        <option value="offre">offres d'emploi</option>
-                        
-                    </optgroup>
-                    <optgroup label="Multimédia">
-                    <option value="informatique">Informatique</option>
-                        <option value="console">Console</option>
-                        <option value="imageetson">Image&son</option>
-                    </optgroup>
-                    <optgroup label="Vacances">
-                    <option value="Locationsetgit">Location&git</option>
-                        <option value="console">Chambres d'hote</option>
-                        <option value="imageetson">Camping</option>
-                    </optgroup>
-                  </select>
+                        </optgroup>
+                        <optgroup label="Multimédia">
+                              <option value="informatique">Informatique</option>
+                              <option value="console">Console</option>
+                              <option value="imageetson">Image&son</option>
+                        </optgroup>
+                        <optgroup label="Vacances">
+                              <option value="Locationsetgit">Location&git</option>
+                              <option value="console">Chambres d'hote</option>
+                              <option value="imageetson">Camping</option>
+                        </optgroup>
+                    </select>
+                 
                  </p>
-                 <p> 
+                  <p id="rechinput">
+                      <input type="submit" value="RECHERCHER">
+                  </p>    
+
+             </article>
+             <article class="bas_search">
+                 <p id="bas_chbox"> 
                         <input type="checkbox" name="rechrecher" id="rechercher" />
                         <label for="rechercher">Rechercher dans le titre uniquement</label> <br/>
                         <input type="checkbox" name="urgence" id="urgence" />
-                        <label for="urgence">Annonces <span class="urgence">urgente uniquement</span> </label>
+                        <label for="urgence">Annonces <span id="surgence">Urgente </span>uniquement </label>
                 </p> 
-                <p>
+
+
+                <p id="select-bas">
                         <select id="depatement" name="departement">
                                 <option value="autour">Autour de moi</option>
                                 <option value="il-de-france">Il-de-france</option>
@@ -111,12 +123,17 @@
                                 <option value="poiteau charente">Poiteau charente</option>
 
                           </select>
-                </p> 
+                </p>
+                <p id="searchbas">
+                
+                     <input type="search" placeholder="ville ou code postale">
+                </p>
+             </article> 
             </form>
 
           </nav>
                                      
-                            <!-- **********Start main section fo offre -->
+                            <!-- **********Start main section for offre -->
 
     <section class="principaloffre">
         <h1>Annonces-Il-de-france</h1>

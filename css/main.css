@@ -1106,12 +1106,6 @@ header #searchoffre i
         margin:15px;
     }
 
-
-
-
-
-
-
 }
 
 
@@ -1121,9 +1115,15 @@ header #searchoffre i
 
 
 
-/* ==========================================================================
+        /* ==========================================================================
                                     Start desktop css
-   ========================================================================== */
+        ========================================================================== */
+
+
+
+
+
+
              
 
 
@@ -1591,7 +1591,188 @@ header  .connexion button:hover
         width: auto;
     }
 
-            /*----------------------Offre for Desktop---------------------------*/  
+            /*----------------------Offre for Desktop---------------------------*/ 
+            /*------------------------------------------------------------------*/
+
+                     /*-----------start menu search for offre-------------*/
+
+
+ .menu_offre
+ {
+   height: 180px;
+   background-color: rgb(230,230,230);
+ }
+ .menu_offre form
+ {
+    width: 98%;
+    margin: auto;
+ }
+
+
+
+ .menu_offre form .haut-search              
+ {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ }
+.menu_offre form .haut-search #searchinput
+{
+
+    flex:2;  
+}
+
+.menu_offre form .haut-search #searchinput, .menu_offre form .haut-search #catinput, .menu_offre form .haut-search #rechinput
+{
+
+    border:1px solid rgb(200,200,200);
+    border-radius: 6px;
+    background-color: white;
+    padding: 8px;
+    margin-right: 8px;
+
+
+}
+ .menu_offre form .haut-search #searchinput input, .menu_offre form .haut-search #catinput select, .menu_offre form .haut-search #rechinput input 
+{
+    border:none;
+    width: 99%;
+    height: 96%;
+    background:none; 
+    
+  
+ } 
+.menu_offre form .haut-search #catinput, .menu_offre form .haut-search #rechinput
+{
+    flex:1;
+    
+}
+.menu_offre form .haut-search #rechinput
+{
+    background-color: rgb(61,115,189);;
+    color: white;
+}
+.menu_offre form .haut-search #rechinput:hover
+{
+     background-color:rgb(76, 148, 239);
+}
+.menu_offre form .haut-search #catinput select
+{
+   /*color:rgb(76, 148, 239);*/
+   font-size: 13px;     
+}
+.menu_offre form .haut-search #catinput select 
+{
+    color: rgb(47,47,47);
+}
+
+.menu_offre form  .bas_search
+{
+    /*width: 80%;*/
+    display:flex;
+    justify-content:flex-start;
+}
+.menu_offre form  .bas_search #select-bas, .menu_offre form  .bas_search  #searchbas
+
+ { 
+    border:1px solid rgb(200,200,200);
+    border-radius: 6px;
+    background-color: white;
+    /*padding: px;*/
+    margin-right: 15px;
+    height: 38px;
+    width: 25.5%;
+     
+     
+
+  }
+.menu_offre form  .bas_search #bas_chbox
+{
+     width:auto;
+     height: 30px;
+     margin-right: 20px;
+     font-size: 12px;
+}
+.menu_offre form  .bas_search #bas_chbo label  #surgence
+
+{
+    color: rgb(245,107,42);
+
+}
+
+  .menu_offre form  .bas_search #select-bas select, .menu_offre form  .bas_search  #searchbas input
+{ 
+    border:none;
+    width: 99%;
+    height: 96%;
+    background:none; 
+ } 
+ .menu_offre form  .bas_search #select-bas  select, .menu_offre form  .bas_search  #searchbas input[placeholder]
+ {
+    font-size: 12px;
+ } 
+
+
+.principaloffre .mainsection .annonce_une
+ {
+        flex:0.65;
+        height: 800px;
+ }
+
+
+
+.principaloffre .mainsection .annonce_une .articleaside .figureaside
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /*align-items: center;*/
+        width: 100%;
+        padding-top: 10px;
+        height: 200px;
+
+        border-bottom: 1px solid #989898;
+        /*border:1px solid red;*/
+        margin-bottom: 10px;
+    
+        
+        /*padding-bottom: 5px;*/
+
+    }
+    .principaloffre .mainsection .annonce_une .figureaside img
+    {
+        width:50%;
+        height: 60%;
+    }
+    .principaloffre .mainsection .annonce_une .figureaside  .infoart
+
+    {
+        /*margin-left: 20px;*/
+        font-weight: bold;
+          display: flex;
+          flex-direction:column;
+          justify-content:flex-start; 
+          align-items: center;
+          align-content: center;
+         margin-top: 0px;
+         margin-left: 0px;
+          border:1px solid red;
+          height: 35%;
+          width: 100%;
+        /*lex-direction: column;
+        justify-content: center;*/
+           font-size: 12px;
+    }
+    .principaloffre .mainsection .annonce_une .figureaside  .infoart .description
+    {
+        margin-bottom: 0px;
+    }
+
+
+
+
+
+
 
 }
 
