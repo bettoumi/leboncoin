@@ -411,12 +411,12 @@ footer .droite   .fa-twitter-square
     width: 100%;
     padding:3px;
 }
-.depoannonce .formulaire form .form1 .elemtform input[type="textearea"], .depoannonce .formulaire form .form1 .elemtform input[type="texte"], .depoannonce .formulaire form .form1 .elemtform input[type="tel"] 
+.depoannonce .formulaire form .form1 .elemtform input[type="textarea"], .depoannonce .formulaire form .form1 .elemtform input[type="text"], .depoannonce .formulaire form .form1 .elemtform input[type="tel"] 
 {
     width: 100%;
     padding: 5px;
 }
-.depoannonce .formulaire form .form1 .elemtform input[type="textearea"]
+.depoannonce .formulaire form .form1 .elemtform input[type="textarea"]
 {
     height: 200px;
 }
@@ -456,7 +456,7 @@ footer .droite   .fa-twitter-square
     width: 100%;
     margin: auto;
 }
-.depoannonce .formulaire form .form1 .inputs input[type="texte"], .depoannonce .formulaire form .form1 .inputs input[type="email"], .depoannonce .formulaire form .form1 .inputs input[type="tele"]
+.depoannonce .formulaire form .form1 .inputs input[type="text"], .depoannonce .formulaire form .form1 .inputs input[type="email"], .depoannonce .formulaire form .form1 .inputs input[type="tel"]
 {
     width: 100%;
     padding: 5px;
@@ -644,8 +644,6 @@ header #searchoffre i
 {
     width:100%;
     height: 50px;
-   /* border: 1px solid red;*/
-    /*border-bottom: 1px solid #989898;*/
     display:inline-flex;
 
     
@@ -1558,7 +1556,7 @@ header  .connexion button:hover
         width: 50%;
         padding:3px;
     }
-    .depoannonce .formulaire form .form1 .elemtform input[type="textearea"], .depoannonce .formulaire form .form1 .elemtform input[type="texte"], .depoannonce .formulaire form .form1 .elemtform input[type="tel"] 
+    .depoannonce .formulaire form .form1 .elemtform input[type="textarea"], .depoannonce .formulaire form .form1 .elemtform input[type="text"], .depoannonce .formulaire form .form1 .elemtform input[type="tel"] 
     {
         width: 50%;
         padding: 5px;
@@ -1744,7 +1742,7 @@ header  .connexion button:hover
         width:50%;
         height: 60%;
     }
-    .principaloffre .mainsection .annonce_une .figureaside  .infoart
+    .principaloffre .mainsection .annonce_une .figureaside  #infoartaside
 
     {
         /*margin-left: 20px;*/
@@ -1759,11 +1757,10 @@ header  .connexion button:hover
           border:1px solid red;
           height: 35%;
           width: 100%;
-        /*lex-direction: column;
-        justify-content: center;*/
+        
            font-size: 12px;
     }
-    .principaloffre .mainsection .annonce_une .figureaside  .infoart .description
+    .principaloffre .mainsection .annonce_une .figureaside #infoartaside  .description
     {
         margin-bottom: 0px;
     }
